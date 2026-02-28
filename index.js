@@ -11,13 +11,13 @@ fastify.register(cors, {
 })
 
 // Obtiene la dirección de la carpeta de rutas
-const pathRouter = `${__dirname}/routes`
+const pathRouter = `${__dirname}/api/routes`
 
 // Genera automaticamente los prefijos para las rutas
 
 fs.readdirSync(pathRouter).filter((file)=>{
     const route = file.substring(0, file.length - 3)
-    fastify.register(require(`./routes/${route}.js`), { prefix: route })    
+    fastify.register(require(`./api/routes/${route}.js`), { prefix: route })    
     // console.log('--->',route)
 })
 

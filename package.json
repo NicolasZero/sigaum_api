@@ -1,10 +1,9 @@
 {
   "name": "api_regiones",
   "version": "1.0.0",
-  "main": "./src/main.js",
+  "main": "./index.js",
   "scripts": {
-    "dev": "nodemon ./src/main.js",
-    "start": "node ./src/main.js"
+    "start": "node ./index.js"
   },
   "keywords": [],
   "author": "Nicolas",
