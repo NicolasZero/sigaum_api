@@ -4,7 +4,7 @@ const cors = require('@fastify/cors')
 
 // require('dotenv').config()
 
-process.loadEnvFile()
+// process.loadEnvFile()
 
 fastify.register(cors, {
   origin: '*'
