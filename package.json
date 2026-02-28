@@ -1,0 +1,23 @@
+{
+  "name": "api_regiones",
+  "version": "1.0.0",
+  "main": "./src/main.js",
+  "scripts": {
+    "dev": "nodemon ./src/main.js",
+    "start": "node ./src/main.js"
+  },
+  "keywords": [],
+  "author": "Nicolas",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@fastify/cors": "^10.0.1",
+    "bcryptjs": "^2.4.3",
+    "fastify": "^5.1.0",
+    "fs": "^0.0.1-security",
+    "pg": "^8.13.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
